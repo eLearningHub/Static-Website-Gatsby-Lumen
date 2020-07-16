@@ -42,22 +42,22 @@ self.__precacheManifest = [
     "url": "532a2f07-36c395669df4dc0275d8.js"
   },
   {
-    "url": "app-981224d3aeccfc71c0a3.js"
+    "url": "app-905099cd1cc9ed3a7e8c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "55283af34c2cc80afcdb422e1bb2204f"
+    "revision": "f6b6a7af0195288068326904c548dc1d"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c9875e2473a7c518755f.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "43232b01cc861c0701a3ece4bd67720b"
+    "revision": "f6081b83111aea4128c98944b7fafccc"
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "3b8ed417e9aa4b0381272cb3ebd23ab5"
+    "revision": "e78955103b5b6315b0204287536c329a"
   },
   {
     "url": "polyfill-b2290f1301185c382ad0.js"
@@ -161,7 +161,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/Static-Website-Gatsby-Lumen/app-981224d3aeccfc71c0a3.js`))) {
+  if (!resources || !(await caches.match(`/Static-Website-Gatsby-Lumen/app-905099cd1cc9ed3a7e8c.js`))) {
     return await fetch(event.request)
   }
 

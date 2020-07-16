@@ -1,8 +1,6 @@
 'use strict';
 
 module.exports = {
-  url: 'https://elearninghub.github.io/Static-Website-Gatsby-Lumen',
-  pathPrefix: '/Static-Website-Gatsby-Lumen',
   title: 'Blog by John Doe',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
